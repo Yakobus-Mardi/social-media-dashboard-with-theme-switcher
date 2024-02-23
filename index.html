@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="top-bg"></div>
+    <header class="main-header">
+      <div>
+        <h1 class="main-title">Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="mobile-border"></div>
+      <div class="toggle-switch">
+        <p class="light-or-dark">Light Mode</p>
+        <label class="switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </header>
+    <main>
+      <section class="upper-wrapper">
+        <div class="card fb">
+          <div class="social-icon-wrapper">
+            <img class="social-icon" src="./images/icon-facebook.svg" alt="" />
+            <span>@nathanf</span>
+          </div>
+          <p class="num-of-followers">1987</p>
+          <p class="followers">Followers</p>
+          <div class="upper-stats">
+            <img src="./images/icon-up.svg" alt="" />
+            <p class="green">12 Today</p>
+          </div>
+        </div>
+        <div class="card tw">
+          <div class="social-icon-wrapper">
+            <img class="social-icon" src="./images/icon-twitter.svg" alt="" />
+            <span>@nathanf</span>
+          </div>
+          <p class="num-of-followers">1044</p>
+          <p class="followers">Followers</p>
+          <div class="upper-stats">
+            <img src="./images/icon-up.svg" alt="" />
+            <p class="green">99 Today</p>
+          </div>
+        </div>
+        <div class="card ig">
+          <div class="social-icon-wrapper">
+            <img class="social-icon" src="./images/icon-instagram.svg" alt="" />
+            <span>@realnathanf</span>
+          </div>
+          <p class="num-of-followers">11k</p>
+          <p class="followers">Followers</p>
+          <div class="upper-stats">
+            <img src="./images/icon-up.svg" alt="" />
+            <p class="green">1099 Today</p>
+          </div>
+        </div>
+        <div class="card yt">
+          <div class="social-icon-wrapper">
+            <img class="social-icon" src="./images/icon-youtube.svg" alt="" />
+            <span>Nathan F.</span>
+          </div>
+          <p class="num-of-followers">8239</p>
+          <p class="followers">Subscribers</p>
+          <div class="upper-stats">
+            <img src="./images/icon-down.svg" alt="" />
+            <p class="red">144 Today</p>
+          </div>
+        </div>
+      </section>
+      <section class="lower-wrapper">
+        <h2>Overview - Today</h2>
+        <div class="lower-stats-wrapper">
+          <div class="card card-overview">
+            <div class="flex">
+              <p class="text-stats">Page Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div class="flex">
+              <p class="num-stats">87</p>
+              <div class="flex stats">
+                <img src="./images/icon-up.svg" alt="" />
+                <span class="green">3%</span>
+              </div>
+            </div>
+          </div>
+          <div class="card card-overview">
+            <div class="flex">
+              <p class="text-stats">Likes</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div class="flex">
+              <p class="num-stats">52</p>
+              <div class="flex stats">
+                <img src="./images/icon-down.svg" alt="" />
+                <span class="red">2%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-overview">
+            <div class="flex">
+              <p class="text-stats">Likes</p>
+              <img src="./images/icon-instagram.svg" alt="" />
+            </div>
+            <div class="flex">
+              <p class="num-stats">5462</p>
+              <div class="flex stats">
+                <img src="./images/icon-up.svg" alt="" />
+                <span class="green">2257%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-overview">
+            <div class="flex">
+              <p class="text-stats">Profile Views</p>
+              <img src="./images/icon-instagram.svg" alt="" />
+            </div>
+            <div class="flex">
+              <p class="num-stats">52k</p>
+              <div class="flex stats">
+                <img src="./images/icon-up.svg" alt="" />
+                <span class="green">1375%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-overview">
+            <div class="flex">
+              <p class="text-stats">Retweets</p>
+              <img src="./images/icon-twitter.svg" alt="" />
+            </div>
+            <div class="flex">
+              <p class="num-stats">117</p>
+              <div class="flex stats">
+                <img src="./images/icon-up.svg" alt="" />
+                <span class="green">303%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-overview">
+            <div class="flex">
+              <p class="text-stats">Likes</p>
+              <img src="./images/icon-twitter.svg" alt="" />
+            </div>
+            <div class="flex">
+              <p class="num-stats">507</p>
+              <div class="flex stats">
+                <img src="./images/icon-up.svg" alt="" />
+                <span class="green">553%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-overview">
+            <div class="flex">
+              <p class="text-stats">Likes</p>
+              <img src="./images/icon-youtube.svg" alt="" />
+            </div>
+            <div class="flex">
+              <p class="num-stats">107</p>
+              <div class="flex stats">
+                <img src="./images/icon-down.svg" alt="" />
+                <span class="red">19%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-overview">
+            <div class="flex">
+              <p class="text-stats">Total Views</p>
+              <img src="./images/icon-youtube.svg" alt="" />
+            </div>
+            <div class="flex">
+              <p class="num-stats">1407</p>
+              <div class="flex stats">
+                <img src="./images/icon-down.svg" alt="" />
+                <span class="red">12%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Mardi</a>.
+    </footer> -->
+  </body>
+</html>
